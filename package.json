@@ -4,9 +4,10 @@
   "description": "A backend server for the client side application",
   "main": "index.js",
   "author": "Collins Rollins",
-  "type":"module",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "node-fetch": "^3.2.0"

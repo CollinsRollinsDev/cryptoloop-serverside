@@ -4,6 +4,10 @@ import getRequestedData from './getData.js';
 const index = express();
 index.use(express.urlencoded({ extended: true }));
 index.use(express.json());
+var cors = require('cors')
+
+index.use(cors())
+
 
 index.get("/", async (req, res) => {
   const method = req.method;
